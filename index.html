@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshay's Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="toggleSidebar()">X</button>
+        <nav>
+            <h2></h2>
+            <ul>
+                <li><a href="#" onclick="showSection('personal-info')">Personal Info</a></li>
+                <li><a href="#" onclick="showSection('certifications')">Certifications</a></li>
+                <li><a href="#" onclick="showSection('resume')">Resumé</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <button class="open-sidebar-btn" onclick="toggleSidebar()">☰</button>
+
+    <main>
+        <section id="personal-info" class="content-section active">
+            <h2>Welcome!</h2>
+            <p>Name: <span id="name">Lakshay Garg</span></p>
+            <p>Bio: <span id="bio">A young and passionate B.Tech student in AI and ML, skilled in Python, SQL, and C++, with experience in machine learning, data analytics, and backend development.</span></p>
+            <p>Email: <span id="email">lakshayfriends243@gmail.com</span></p>
+            <p><a href="https://www.linkedin.com/in/lakshay-garg-6a479a135/" target="_blank">LinkedIn Profile</a></p>
+        </section>
+
+        <section id="certifications" class="content-section">
+            <h2>Certifications</h2>
+            <div class="certification-list" id="certification-list"></div>
+        </section>
+
+        <section id="resume" class="content-section">
+            <h2>Resumé</h2>
+            <div class="resume-content">
+                <h3>Lakshay Garg</h3>
+                <p>B.Tech Student in Computer Science (AI/ML)</p>
+                <p>New Delhi, India</p>
+                <p>Email: <a href="mailto:lakshayfriends243@gmail.com">lakshayfriends243@gmail.com</a></p>
+                <p>Phone: +91 9911828881</p>
+                
+                <h4>Professional Summary</h4>
+                <p>A dedicated and results-oriented B.Tech student majoring in Computer Science with a specialization in Artificial Intelligence and Machine Learning. Strong background in Python, SQL, C++, and backend development. Experienced in building and deploying machine learning models, conducting data analysis, and data scraping. Proven track record through projects like MindMender, a mental health companion app, and a Railway Reservation System. Certified in DSA and other technical courses, with hands-on project experience and teamwork skills, suitable for data or ML-focused internship roles.</p>
+                
+                <h4>Employment History</h4>
+                <ul>
+                    <li><strong>Artificial Intelligence Society & Indian Blockchain Fraternity</strong> - Management Co-Head (2023–2024)</li>
+                    <ul>
+                        <li>Led and coordinated events, workshops, and seminars on AI and Blockchain technologies.</li>
+                        <li>Managed a team of students to organize collaborative projects, meetups, and technical sessions.</li>
+                    </ul>
+                </ul>
+
+                <h4>Education</h4>
+                <ul>
+                    <li><strong>Bennett University</strong> - B.Tech in Computer Science and Engineering (AI/ML) (Sep 2022–May 2026)</li>
+                    <li><strong>Green Fields School</strong>, New Delhi, India - High School Diploma</li>
+                </ul>
+
+                <h4>Skills</h4>
+                <ul>
+                    <li>Programming: Python, C++, SQL, Machine Learning, Data Analytics, Data Scraping, Backend Development, API Integration, GitHub, Microsoft Office.</li>
+                </ul>
+
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                </ul>
+
+                <h4>Projects</h4>
+                <ul>
+                    <li><strong>MindMender: Mental Health Companion App</strong></li>
+                    <ul>
+                        <li>Developed backend functionalities, handled API integration, and hosted the application.</li>
+                        <li>Trained machine learning models and conducted data scraping for mental health insights.</li>
+                    </ul>
+                    <li><strong>Railway Reservation System</strong></li>
+                    <ul>
+                        <li>Built a terminal-based system to manage railway reservations, integrating user interaction, ticket booking, and cancellations.</li>
+                    </ul>
+                    <li><strong>Breast Cancer Detection: Comparative Analysis of Vision Models</strong></li>
+                    <ul>
+                        <li>Trained vision models on image datasets for breast cancer detection.</li>
+                        <li>Conducted a comparative study to evaluate and optimize model accuracy and efficiency.</li>
+                    </ul>
+                    <li><strong>Askify: Conversational Chatbot</strong></li>
+                    <ul>
+                        <li>Developed a chatbot using the Ollama Mistral model for PDF and URL interactions.</li>
+                        <li>Assisted in model calls and ensured responses were restricted to the content of provided documents.</li>
+                    </ul>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Lakshay Garg. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
