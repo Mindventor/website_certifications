@@ -3,101 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lakshay Garg | AI & ML Developer</title>
+    <title>Your Name | Portfolio</title>
+    <meta name="description" content="Personal portfolio website for Your Name, AI/ML Developer.">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="profile.png">
 </head>
 <body>
 
-    <div class="sidebar" id="sidebar">
+    <aside class="sidebar" id="sidebar">
         <button class="close-btn" onclick="toggleSidebar()">×</button>
         <nav>
-            <h2>Navigation</h2>
+            <h2>Menu</h2>
             <ul>
-                <li><a href="#" onclick="showSection('about-me')">About Me</a></li>
-                <li><a href="#" onclick="showSection('resume')">Resumé</a></li>
+                <li><a href="#" onclick="showSection('about-me')">About</a></li>
+                <li><a href="#" onclick="showSection('projects')">Projects</a></li>
                 <li><a href="#" onclick="showSection('certifications')">Certifications</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contact</a></li>
             </ul>
         </nav>
-    </div>
-
+    </aside>
     <button class="open-sidebar-btn" onclick="toggleSidebar()">☰</button>
 
     <main>
         <section id="about-me" class="content-section active">
             <header>
-                <h1>Welcome! I'm Lakshay Garg</h1>
+                <h1>Lakshay Garg</h1>
+                <h3>B.Tech Student — Computer Science (AI/ML)</h3>
+                <p>New Delhi, India | <a href="mailto:lakshayfriends243@gmail.com">lakshayfriends243@gmail.com</a> | <a href="https://lakshaycertifications.netlify.app" target="_blank">lakshaycertifications.netlify.app</a> | <a href="https://www.linkedin.com/in/lakshay-garg-6a479a135" target="_blank">LinkedIn</a></p>
             </header>
-            [cite_start]<p>I am a passionate and results-driven B.Tech student specializing in Artificial Intelligence and Machine Learning. [cite: 5, 6] [cite_start]With a strong foundation in Python, C++, and SQL [cite: 6, 18][cite_start], I have hands-on experience in backend development, data analytics, and deploying machine learning models. [cite: 7, 20]</p>
-            <p>I am actively seeking internship opportunities where I can apply my skills in data science and machine learning to solve real-world problems.</p>
-            [cite_start]<p><strong>Email:</strong> <a href="mailto:lakshayfriends243@gmail.com">lakshayfriends243@gmail.com</a> [cite: 4]</p>
-            [cite_start]<p><a href="https://www.linkedin.com/in/lakshay-garg-6a479a135/" target="_blank">View my LinkedIn Profile</a> [cite: 4]</p>
+            <section class="about-summary">
+                <h4>Summary</h4>
+                <p>B.Tech student in AI/ML with strong Python, SQL, and C++ skills. Experience in backend, data scraping, and deploying ML models. Certified in DSA and AI/ML. Seeking roles in data science or machine learning.</p>
+            </section>
         </section>
 
-        <section id="resume" class="content-section">
-            <header>
-                <h2>Resumé</h2>
-            </header>
-            <article class="resume-content">
-                <header>
-                    <h3>Lakshay Garg</h3>
-                    [cite_start]<p>B.Tech in Computer Science (AI/ML) [cite: 1, 13, 14]</p>
-                    [cite_start]<p>New Delhi, India [cite: 3] | [cite_start]+91 9911828881 [cite: 4] | [cite_start]<a href="mailto:lakshayfriends243@gmail.com">lakshayfriends243@gmail.com</a> [cite: 4]</p>
-                </header>
-
-                <section>
-                    <h4>Professional Summary</h4>
-                    [cite_start]<p>A dedicated B.Tech student specializing in AI and Machine Learning with proven skills in Python, SQL, and C++. [cite: 6] [cite_start]Experienced in the full project lifecycle, from backend development and data scraping to deploying ML models. [cite: 7] [cite_start]Demonstrated success through projects like MindMender and a Reinforcement Learning-based Traffic Optimization system. [cite: 7] [cite_start]Certified in DSA and key AI/ML concepts, eager to secure a challenging internship in data science or machine learning. [cite: 8]</p>
-                </section>
-
-                <section>
-                    <h4>Experience</h4>
-                    <article>
-                        <p><strong>Management Co-Head</strong> | [cite_start]Al Society & Blockchain Fraternity [cite: 10]</p>
-                        [cite_start]<p><em>2023 – 2024 [cite: 24]</em></p>
-                        <ul>
-                            [cite_start]<li>Organized and led a variety of technical events, including AI/Blockchain workshops, guest lectures, and hackathons. [cite: 11]</li>
-                            [cite_start]<li>Managed cross-functional student teams to host technical sessions and community outreach initiatives. [cite: 11]</li>
-                        </ul>
-                    </article>
-                </section>
-
-                <section>
-                    <h4>Education</h4>
-                    [cite_start]<p><strong>Bennett University</strong> - B.Tech in Computer Science (AI/ML) [cite: 13, 14] [cite_start](2022–2026) [cite: 25]</p>
-                    [cite_start]<p><strong>Green Fields School, New Delhi</strong> - High School Diploma [cite: 15, 16]</p>
-                </section>
-
-                <section>
-                    <h4>Skills</h4>
+        <section id="experience" class="content-section">
+            <header><h2>Experience</h2></header>
+            <div class="experience-list">
+                <div class="exp-item">
+                    <h3>Data Science and AI Intern — Schneider Electric</h3>
+                    <span>Bangalore | Jun–July 2025</span>
                     <ul>
-                        [cite_start]<li><strong>Languages:</strong> Python, C++, SQL [cite: 18]</li>
-                        [cite_start]<li><strong>ML Tools:</strong> Scikit-learn, TensorFlow, Pandas, NumPy, OpenCV, XGBoost [cite: 19]</li>
-                        [cite_start]<li><strong>Dev Skills:</strong> Backend Development, API Integration, Data Analytics, Git/GitHub [cite: 20]</li>
-                        [cite_start]<li><strong>Tools:</strong> MS Office, Jupyter, Google Colab [cite: 21]</li>
+                        <li>Developed ML models for predictive analytics and internal AI solutions using Python and Scikit-learn.</li>
+                        <li>Worked on Tableau dashboards for data visualization.</li>
                     </ul>
-                </section>
+                </div>
+                <div class="exp-item">
+                    <h3>Management Co-Head — AI Society & Blockchain Fraternity</h3>
+                    <span>Bennett University | 2023–2024</span>
+                    <ul>
+                        <li>Led technical workshops and managed hackathon teams for university AI initiatives.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-                <section>
-                    <h4>Projects</h4>
-                    <article>
-                        <p><strong>MindMender: Mental Health App</strong></p>
-                        <ul>
-                            [cite_start]<li>Developed the full-stack backend and machine learning components to support user mood tracking and deliver personalized insights. [cite: 26]</li>
-                            [cite_start]<li>Integrated data scraping modules and external APIs to provide users with tailored mental wellness resources. [cite: 27]</li>
-                        </ul>
-                    </article>
-                    <article>
-                        <p><strong>Askify: PDF/URL Chatbot</strong></p>
-                        <ul>
-                            [cite_start]<li>Built a conversational chatbot using the Mistral model to interact with and answer queries from documents and web pages. [cite: 39]</li>
-                            [cite_start]<li>Optimized the search and retrieval process by implementing embedding-based indexing for faster, more accurate responses. [cite: 40]</li>
-                        </ul>
-                    </article>
-                     <article>
-                        <p><strong>Traffic Signal Optimization (Reinforcement Learning)</strong></p>
-                        <ul>
-                            [cite_start]<li>Trained a Deep Q-Network (DQN) based reinforcement learning agent using the SUMO simulator for intelligent traffic light control. [cite: 36]</li>
-                            [cite_start]<li>Successfully improved traffic flow efficiency and reduced congestion in simulated urban environments. [cite: 37]</li>
+        <section id="education" class="content-section">
+            <header><h2>Education</h2></header>
+            <div class="education-list">
+                <div class="edu-item">
+                    <h3>Bennett University</h3>
+                    <span>B.Tech, Computer Science (AI/ML) | 2022–2026</span>
+                </div>
+                <div class="edu-item">
+                    <h3>Green Fields School</h3>
+                    <span>High School Diploma</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section">
+            <header>
+                <h2>Projects</h2>
+            </header>
+            <div class="projects-list">
+                <div class="project-card">
+                    <h3>MindMender: Mental Health App</h3>
+                    <p>Developed a full-stack app with ML-driven mood tracking and personalized wellness insights. Integrated data scraping and external APIs.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Askify: PDF/URL Chatbot</h3>
+                    <p>Built a chatbot using Mistral LLM for querying documents and web content. Implemented embedding-based indexing for fast, accurate retrieval.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Traffic Optimization</h3>
+                    <p>DQN-based RL agent in SUMO for smart traffic signal control.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Breast Cancer Detection</h3>
+                    <p>Trained and compared ML models on histopathology images; published a research paper on classification accuracy and challenges.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Railway System</h3>
+                    <p>Terminal-based ticket booking and cancellation with data persistence.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="content-section">
+            <header>
+                <h2>Certifications</h2>
+            </header>
+            <div id="certification-list" class="certifications-list"></div>
+            <div class="cert-upload">
+                <label for="cert-upload-input">Add your certification (PDF): </label>
+                <input type="file" id="cert-upload-input" accept="application/pdf" onchange="handleFileUpload(event)">
+            </div>
+        </section>
+
+        <section id="skills" class="content-section">
+            <header><h2>Skills</h2></header>
+            <ul>
+                <li><strong>Languages:</strong> Python, C++, SQL</li>
+                <li><strong>ML Tools:</strong> Scikit-learn, TensorFlow, OpenCV, Pandas, NumPy, XGBoost</li>
+                <li><strong>Development:</strong> APIs, Backend, Git/GitHub, Jupyter, Google Colab</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="content-section">
+            <header>
+                <h2>Contact</h2>
+            </header>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact-details">
+                <p>Email: <a href="mailto:lakshayfriends243@gmail.com">lakshayfriends243@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/lakshay-garg-6a479a135" target="_blank">lakshay-garg-6a479a135</a></p>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section">
+            <header>
+                <h2>Projects</h2>
+            </header>
+            <div class="projects-list">
+                <div class="project-card">
+                    <h3>MindMender: Mental Health App</h3>
+                    <p>Developed a full-stack app with ML-driven mood tracking and personalized wellness insights. Integrated data scraping and external APIs.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Askify: PDF/URL Chatbot</h3>
+                    <p>Built a chatbot using LLMs to answer queries from documents/webpages. Implemented embedding-based indexing for fast, accurate retrieval.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Traffic Signal Optimization (RL)</h3>
+                    <p>Trained a DQN agent in SUMO for intelligent traffic control, improving flow and reducing congestion in simulations.</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </section>
+
+        <section id="certifications" class="content-section">
+            <header>
+                <h2>Certifications</h2>
+            </header>
+            <div id="certification-list" class="certifications-list"></div>
+            <div class="cert-upload">
+                <label for="cert-upload-input">Add your certification (PDF): </label>
+                <input type="file" id="cert-upload-input" accept="application/pdf" onchange="handleFileUpload(event)">
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <header>
+                <h2>Contact</h2>
+            </header>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact-details">
+                <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">your-linkedin</a></p>
+            </div>
+        </section>
                         </ul>
                     </article>
                     <article>
@@ -121,7 +206,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 Lakshay Garg. All Rights Reserved.</p>
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
     </footer>
 
     <script>
